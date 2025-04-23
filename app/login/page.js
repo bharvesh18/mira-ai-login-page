@@ -2,6 +2,11 @@
 import React, { useState,useRef } from 'react'
 import { BiShow } from "react-icons/bi";
 import { GoEyeClosed } from "react-icons/go";
+{
+    /*
+    This is the login page of our project, it uses tailwind and normal css all the associated css is stored in parent directory by the name index.css
+    */
+}
 const page = () => {
     const [showPassword,setShowPassword]=useState(false);
     const handleShowPassword=()=>{
