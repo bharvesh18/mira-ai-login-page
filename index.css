@@ -171,7 +171,7 @@
     position: relative;
     width: 100%;
 }
-.initial-details-input input[type='text'],textarea{
+.initial-details-input input[type='text'],textarea,input[type="number"]{
     position: relative;
     border: none;
     padding: 12px;
