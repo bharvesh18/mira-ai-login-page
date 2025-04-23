@@ -1,5 +1,9 @@
 import React from 'react'
-
+{
+  /*
+  This is the follow up questions page where we will ask user about his / her basic details which include name/nickname, age, height , weight and medical history which is optional
+  */
+}
 const page = () => {
   return (
     <div className="initial-details-page follow-up">
@@ -11,15 +15,15 @@ const page = () => {
             <label for="nickname">NickName</label>
           </div>
           <div className="initial-details-input">
-          <input type="text" id="age" placeholder='' required className=''></input>
+          <input type="number" id="age" placeholder='' required className=''></input>
           <label for="age">Age</label>
           </div>
           <div className='initial-details-input'>
-            <input type="text" id='height' placeholder='' required className=''></input>
+            <input type="number" id='height' placeholder='' required className=''></input>
             <label for='height'>Height</label>
           </div>
           <div className='initial-details-input'>
-            <input type="text" id='weight' placeholder='' required className=''></input>
+            <input type="number" id='weight' placeholder='' required className=''></input>
             <label for='weight'>Weight</label>
           </div>
         </div>
