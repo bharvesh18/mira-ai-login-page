@@ -20,6 +20,9 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+to check out the login page http://localhost:3000/login
+to check out the follow up questions page http://localhost:3000/input-form
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
